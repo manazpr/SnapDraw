@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans min-h-screen overflow-x-hidden;
+}
+.bg-image {
+  background-image: url("/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
